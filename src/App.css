@@ -1,10 +1,46 @@
-.App {
-  text-align: center;
-}
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+#container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  background-color: blue;
+}
+#box {
+  display: inline-block;
+  align-self: center;
+  width: 600px;
+  background-color: white;
+  text-align: center;
+}
+#icons {
+  display: flex;
+  position: relative;   
+  max-width: 50px;
+  justify-content: space-between;
+  left: 50px;
+  top: 50px
+}
+#button {
+  position: relative;
+  height: 30px;
+  bottom: 20px;
+  left: 150px;
+  color: white;
+  border: 0;
+}
+#author {
+  position: relative;
+  left: 150px;
+  bottom: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
