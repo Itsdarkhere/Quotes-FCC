@@ -24,7 +24,7 @@
 #icons {
   display: flex;
   position: relative;   
-  max-width: 50px;
+  max-width: 80px;     
   justify-content: space-between;
   left: 50px;
   top: 50px
