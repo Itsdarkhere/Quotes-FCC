@@ -6,5 +6,6 @@ Built with React and some css.
 <hr/>
 
 The project in itself is a simple one page app that displays random quotes from a list and changes some colors and element sizes when quotes change.
+Also contains buttons to tweet and share to linkedin.
 
 ![](quotes.gif)
